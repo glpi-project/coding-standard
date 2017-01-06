@@ -62,4 +62,8 @@
   <!-- White space after IF, ELSE, FOREACH, SWITCH keyword -->
   <rule ref="Squiz.ControlStructures.ControlSignature" />
 
+  <rule ref="PEAR.Commenting.FunctionComment">
+     <exclude name="PEAR.Commenting.FunctionComment.Missing"/>
+  </rule>
+
 </ruleset>
