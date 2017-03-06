@@ -65,5 +65,13 @@
   <rule ref="PEAR.Commenting.FunctionComment">
      <exclude name="PEAR.Commenting.FunctionComment.Missing"/>
   </rule>
+  
+  <!-- end of line should be \n -->
+  <rule ref="Generic.Files.LineEndings">
+    <properties>
+      <property name="eolChar" value="\n"/>
+    </properties>
+  </rule>
+
 
 </ruleset>
