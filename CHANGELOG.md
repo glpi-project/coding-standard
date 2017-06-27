@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 Changes from @trasher:
 - check bocblocks, but don't require them
 
+## [0.6] - 2017-06-27
+Change from @trasher
+- use array short syntax,
+- lowercase constants (true, false and null),
+- method signature spacing
+
 ## [0.5] - 2016-01-04
 
 Changes from @ddurieux:
