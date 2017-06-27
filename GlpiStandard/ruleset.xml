@@ -62,10 +62,10 @@
   <!-- White space after IF, ELSE, FOREACH, SWITCH keyword -->
   <rule ref="Squiz.ControlStructures.ControlSignature" />
 
-  <rule ref="PEAR.Commenting.FunctionComment">
+  <!--rule ref="PEAR.Commenting.FunctionComment">
      <exclude name="PEAR.Commenting.FunctionComment.Missing"/>
-  </rule>
-  
+  </rule-->
+
   <!-- end of line should be \n -->
   <rule ref="Generic.Files.LineEndings">
     <properties>
@@ -73,5 +73,19 @@
     </properties>
   </rule>
 
+  <!-- No long array syntax (PHP >= 5.4) -->
+  <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
 
+  <!-- Lower case true, false and null -->
+  <rule ref="Generic.PHP.LowerCaseConstant" />
+
+  <!-- Method signature spacing -->
+  <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
+    <properties>
+      <property name="equalsSpacing" value="1"/>
+    </properties>
+  </rule>
+
+  <!-- cameCase format for methods and functions names -->
+  <!--rule ref="Generic.NamingConventions.CamelCapsFunctionName" /-->
 </ruleset>
