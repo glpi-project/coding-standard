@@ -2,7 +2,7 @@
     "name": "glpi-project/coding-standard",
     "description": "GLPI PHP CodeSniffer Coding Standard",
     "keywords": ["phpcs", "CodeSniffer", "GLPI"],
-    "license": "GPLv3",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Teclib'",
