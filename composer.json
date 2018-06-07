@@ -15,6 +15,6 @@
         "issues": "https://github.com/glpi-project/coding-standard/issues"
     },
     "require": {
-        "squizlabs/php_codesniffer": "^3.2"
+        "squizlabs/php_codesniffer": "^3.3"
     }
 }
