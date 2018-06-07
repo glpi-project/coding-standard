@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 Changes from @trasher:
 - check bocblocks, but don't require them
 
+## [0.7.1] - 2018-06-07
+Change from @trasher
+- upgrade phpcs to 3.3
+
 ## [0.7] - 2018-02-23
 Change from @trasher
 - upgrade phpcs to 3.x
