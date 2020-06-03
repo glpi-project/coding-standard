@@ -2,6 +2,8 @@
 <ruleset name="glpi">
   <description>GLPI Coding standard</description>
 
+  <config name="installed_paths" value="vendor/slevomat/coding-standard" />
+
   <!-- use http://edorian.github.io/php-coding-standard-generator/#phpcs -->
 
   <!-- white spaces at end of line or empty line have spaces -->
@@ -88,4 +90,25 @@
 
   <!-- cameCase format for methods and functions names -->
   <!--rule ref="Generic.NamingConventions.CamelCapsFunctionName" /-->
+
+  <!-- Namespace/use directives rules -->
+  <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses" />
+  <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse" />
+  <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions" />
+  <rule ref="SlevomatCodingStandard.Namespaces.MultipleUsesPerLine" />
+  <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration" />
+  <rule ref="SlevomatCodingStandard.Namespaces.NamespaceSpacing" />
+  <!-- This would be usable only if all GLPI classes becomes namespaced
+    <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly" />
+  -->
+  <rule ref="SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile" />
+  <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
+    <properties>
+      <property name="searchAnnotations" value="1"/>
+    </properties>
+  </rule>
+  <rule ref="SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash" />
+  <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace" />
+  <rule ref="SlevomatCodingStandard.Namespaces.UselessAlias" />
+  <rule ref="SlevomatCodingStandard.Namespaces.UseSpacing" />
 </ruleset>
