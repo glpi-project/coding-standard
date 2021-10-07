@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.9.0] - 2021-10-07
+Change from @cedric-anne
+- remove '#' comments disallow rule to permit usage of PHP attributes
+- upgrade phpcs to 3.6
+- upgrade slevomat/coding-standard to 7.0
+
 ## [0.8] - 2020-06-03
 Change from @cedric-anne
 - Add namespace CS

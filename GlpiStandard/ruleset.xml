@@ -72,6 +72,9 @@
     </properties>
   </rule>
 
+  <!-- file must end by a new line -->
+  <rule ref="PSR2.Files.EndFileNewline" />
+
   <!-- No long array syntax (PHP >= 5.4) -->
   <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
 
