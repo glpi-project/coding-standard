@@ -1,6 +1,7 @@
 {
     "name": "glpi-project/coding-standard",
     "description": "GLPI PHP CodeSniffer Coding Standard",
+    "abandoned": true,
     "keywords": ["phpcs", "CodeSniffer", "GLPI"],
     "license": "GPL-2.0-or-later",
     "authors": [
