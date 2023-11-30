@@ -18,6 +18,7 @@
   <!-- Indent 3 -->
   <rule ref="Generic.WhiteSpace.ScopeIndent">
     <properties>
+      <property name="exact" value="true"/>
       <property name="indent" value="3"/>
     </properties>
   </rule>
